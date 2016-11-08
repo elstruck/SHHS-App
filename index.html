@@ -1,9 +1,11 @@
 <html>
 <head>
     <script>
-    
-    
-     window.location="http://app.springhillband.org"; 
+         document.addEventListener("deviceready", onDeviceReady, false); 
+
+    function onDeviceReady() {
+        // Now safe to use the Codova API
+     window.location="http://your.website"; }
 </script>
 </head>
 <body>
